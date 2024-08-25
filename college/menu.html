@@ -1,0 +1,272 @@
+<html>
+ <head>
+   <style>
+     .frstc{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        box-shadow: 10px 3px 12px rgb(53, 54, 54);
+      
+      }
+      .button{
+        font-weight: 500;
+        margin-left: 20px;
+        background-color: white;
+        border: none;
+        color: black;
+        box-shadow: none;
+        cursor:grab;
+      }
+      button a{
+        text-decoration: none;
+        color: black;
+      }
+      button a:active{
+       color: orange;
+      }
+      .frstc2{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 80px;
+      }
+      .cont{
+        justify-content: flex-end;
+      }
+      .button2{
+        font-weight: 500;
+        margin-left: 20px;
+        margin-right: 40px;
+        margin-top: 5px;
+        background-color: white;
+        border: none;
+        color: black;
+        box-shadow: none;
+        cursor:grab;
+      }
+      .menu-left{
+        width: 40%;
+        height: 50%;
+        padding-left: 30px;
+      }
+      menu{
+        padding-bottom: 60px;
+        font-size: medium;
+        
+      }
+      .menu a{
+       text-decoration: none;
+       color: grey;
+      }
+      .menu a:hover{
+       color: black;
+      }
+      .popeyes{
+        padding-bottom: 20px;
+        font-weight: bolder;
+        font-size: larger;
+        width:20%;
+      }
+      .frst{
+        width: 40%;
+        height: 30%;
+        display: inline-block;
+        position:inherit;
+        background-color: blue;
+      }
+      .menu1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-right: auto; 
+        padding-left: 200px;
+      }
+      .menu2{
+       display: flex;
+       flex-direction: column;
+       position: absolute;
+      }
+      .menu-left{
+        display: flex;
+        flex-direction: row;
+        margin-right: auto; 
+        padding-left: 200px;
+      }
+      button{
+        background-color: rgb(223, 121, 67);
+        color: white;
+        border-radius: 10px; 
+        border: none;
+        width: 176px;
+        height: 31px;
+        cursor: pointer;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+      }
+      .mennu{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        width: 50%;
+      }
+      .top{
+        font-weight:lighter;
+        padding-bottom: 10px;
+        font-size: xx-large;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      }
+      .frstmenu{
+        width: 48%;
+        margin-left: 300px; 
+        background-color:#f8f7f5;
+        padding-left: 30px; 
+        padding-top: 30px; 
+        border-radius:10px;
+        margin-top: -120px;
+      }
+      .gap{
+        margin-top: -70px;
+      }
+   </style>    
+ </head> 
+ <body>  
+    <div style="position: fixed; background-color: white; top: 0%;"> 
+      <div class="frstc">
+       <img src="D:\college\Popeyes-logo.png" width="10%"  height="10%" style="margin: 30px;">
+       <div><button class="button"><a href="..\college\kfc.html">Home</a></div>
+      
+     </div>
+      <div class="frstc2 cont">
+       <img src="D:\college\user.png" width="2%" height="2%">
+       <div><button class="button2">Sign In</button></div>
+     </div>
+   </div><br><br><br><br><br><br><br><br><br>
+
+
+   <div class="popeyes">POPEYES MENU</DIV>
+    <div style="width: 10%; display: inline-block;margin-right: 10px;">
+      <div class="menu"><a href="#">BURGERS</a></div><br>
+      <div class="menu"><a href="#">BOX MEALS</a></div><br>
+      <div class="menu"><a href="#">Drinks</a></div><br>
+    </div>
+   </div>
+   
+   <div id="frstMenu" class="frstmenu">
+      <div class="top">BURGERS</div>
+      <div class="mennu"><!--------------------------------------------------------------------------------first burger-->
+       <div id>
+         <img src="..\college\Screenshot (13).png" style="width: 100%;height: 50%;">
+         <div style="padding-top: 10px; text-align: center; width: 100%; font-weight: bolder;"> Mexican Zinger Pro Burger & Chicken Meal</div>
+         <div style="color: grey;padding-left: 40px;">non-veg</div>
+         <div style="font-weight: bold; padding-left: 40px; padding-bottom: 10px;">₹ 299</div>
+          <div style="padding-left: 100px;"><button class="buttons">Add to cart</button></div><br><br>
+       </div>  
+       <div id>
+         <img src="D:\college\2nd.png" style="width: 100%;height: 50%;">
+         <div style="padding-top: 10px; text-align: center; width: 100%; font-weight: bolder;">Caribbean Spicy Zinger Burger & Chicken Meal</div>
+         <div style="color: grey;padding-left: 40px;">non-veg</div>
+         <div style="font-weight: bold; padding-left: 40px; padding-bottom: 10px;">₹ 499</div>
+         <div style="padding-left: 100px;"><button class="buttons">Add to cart</button></div>
+       </div> 
+     </div> 
+      
+     <div class="mennu"><!--------------------------------------------------------------------------------first burger-->
+        <div>
+         <img src="..\college\1st.png" style="width: 100%;height: 50%;">
+         <div style="padding-top: 10px; text-align: center; width: 100%; font-weight: bolder;"> Caribbean Spicy Zinger Burger</div>
+         <div style="color: grey;padding-left: 40px;">non-veg</div>
+         <div style="font-weight: bold; padding-left: 40px; padding-bottom: 10px;">₹199</div>
+         <div style="padding-left: 100px;"><button class="buttons">Add to cart</button></div><br><br>
+       </div>  
+       <div>
+          <img src="..\college\3rd.png" style="width: 100%;height: 50%;">
+          <div style="padding-top: 10px; text-align: center; width: 100%; font-weight: bolder;"> American Classic Zinger</div>
+          <div style="color: grey;padding-left: 40px;">non-veg</div>
+          <div style="font-weight: bold; padding-left: 40px; padding-bottom: 10px;">₹ 399</div>
+          <div style="padding-left: 100px;"><button class="buttons">Add to cart</button></div>
+       </div> 
+     </div>
+   </div><br><br><br><br><br><br>
+            
+
+
+   <div id="secondMenu" class="frstmenu gap">
+     <div class="top">Box Meals</div>
+     <div class="mennu"><!--------------------------------------------------------------------------------first burger-->
+       <div id>
+         <img src="..\college\box1.png" style="width: 100%;height: 50%;">
+         <div style="padding-top: 10px; text-align: center; width: 100%; font-weight: bolder;"> All Chicken Box</div>
+         <div style="color: grey;padding-left: 40px;">non-veg</div>
+         <div style="font-weight: bold; padding-left: 40px; padding-bottom: 10px;">₹499</div>
+          <div style="padding-left: 100px;"><button class="buttons">Add to cart</button></div><br><br>
+       </div>  
+       <div id>
+         <img src="..\college\box2.png" style="width: 100%;height: 50%;">
+         <div style="padding-top: 10px; text-align: center; width: 100%; font-weight: bolder;">Zinger Tandoori Box</div>
+         <div style="color: grey;padding-left: 40px;">non-veg</div>
+         <div style="font-weight: bold; padding-left: 40px; padding-bottom: 10px;">₹ 509</div>
+         <div style="padding-left: 100px;"><button class="buttons">Add to cart</button></div>
+        </div> 
+     </div> 
+     <div class="mennu"><!--------------------------------------------------------------------------------first burger-->
+       <div>
+         <img src="..\college\box3.png" style="width: 100%;height: 50%;">
+         <div style="padding-top: 10px; text-align: center; width: 100%; font-weight: bolder;">Drinks Zinger Box</div>
+         <div style="color: grey;padding-left: 40px;">non-veg</div>
+         <div style="font-weight: bold; padding-left: 40px; padding-bottom: 10px;">₹200</div>
+         <div style="padding-left: 100px;"><button class="buttons">Add to cart</button></div><br><br>
+       </div>  
+       <div>
+         <img src="D:\college\bucket4.png" style="width: 100%;height: 50%;">
+         <div style="padding-top: 10px; text-align: center; width: 100%; font-weight: bolder;">All in One Bucket</div>
+         <div style="color: grey;padding-left: 40px;">non-veg</div>
+         <div style="font-weight: bold; padding-left: 40px; padding-bottom: 10px;">₹599</div>
+         <div style="padding-left: 100px;"><button class="buttons">Add to cart</button></div>
+       </div> 
+     </div>
+   </div><br><br><br><br><br><br><br>
+
+   <div id="thirdMenu" class="frstmenu gap">
+      <div class="top">COFFEEZ</div>
+      <div class="mennu"><!--------------------------------------------------------------------------------first burger-->
+        <div id>
+          <img src="..\college\juice1.png" style="width: 100%;height: 50%;">
+          <div style="padding-top: 10px; text-align: center; width: 100%; font-weight: bolder;"> Cappuccino</div>
+          <div style="color: grey;padding-left: 40px;">Drinks</div>
+          <div style="font-weight: bold; padding-left: 40px; padding-bottom: 10px;">₹299</div>
+            <div style="padding-left: 100px;"><button class="buttons">Add to cart</button></div><br><br>
+        </div>  
+        <div id>
+          <img src="..\college\juice2.png" style="width: 100%;height: 50%;">
+          <div style="padding-top: 10px; text-align: center; width: 100%; font-weight: bolder;">Caffè Americano</div>
+          <div style="color: grey;padding-left: 40px;">Drinks</div>
+          <div style="font-weight: bold; padding-left: 40px; padding-bottom: 10px;">₹ 509</div>
+          <div style="padding-left: 100px;"><button class="buttons">Add to cart</button></div>
+          </div> 
+      </div> 
+      <div class="mennu"><!--------------------------------------------------------------------------------first burger-->
+        <div>
+          <img src="..\college\juice3.png" style="width: 100%;height: 50%;">
+          <div style="padding-top: 10px; text-align: center; width: 100%; font-weight: bolder;"> Mocha Cookie Crumble Latt</div>
+          <div style="color: grey;padding-left: 40px;">Drinks</div>
+          <div style="font-weight: bold; padding-left: 40px; padding-bottom: 10px;">₹499</div>
+          <div style="padding-left: 100px;"><button class="buttons">Add to cart</button></div><br><br>
+        </div>  
+        <div>
+          <img src="..\college\juice4.png" style="width: 100%;height: 50%;">
+          <div style="padding-top: 10px; text-align: center; width: 100%; font-weight: bolder;">Stardust Macchiato</div>
+          <div style="color: grey;padding-left: 40px;">Drinks</div>
+          <div style="font-weight: bold; padding-left: 40px; padding-bottom: 10px;">₹199</div>
+          <div style="padding-left: 100px;"><button class="buttons">Add to cart</button></div>
+        </div> 
+      </div>
+   </div><br><br><br><br><br>
+       
+  </body>         
+</html>          
+          
+
+  
+
+
